@@ -1,6 +1,6 @@
 ### auth.signup_fields
 
-Получает имена полей, обязательных для регистрации, которые потом используются в методе [auth.signup](auth/auth.signup.md).
+Получает имена полей, обязательных для регистрации, которые потом используются в методе [auth.signup](auth/signup.md).
 
 
 ### Параметры
@@ -27,7 +27,7 @@ step-ler.ru/api/method/auth.signup_fields?api_key=API_KEY
 | **title** | Название поля. |
 | **hint** | Расшифровка названия поля. |
 | **items** | Массив возможных значений. |
-| **name** | Имя поля. Является названием параметра запроса в методе [[manual:components:api:methods:auth-signup|auth.signup]]. |
+| **name** | Имя поля. Является названием параметра запроса в методе [auth.signup](auth/signup.md). |
 | **rules** | Массив возможных правил валидации поля. |
 | **var_type** | Тип данных поля. Возможные значения: boolean, integer, double, string. |
 
