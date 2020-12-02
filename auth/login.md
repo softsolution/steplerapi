@@ -40,11 +40,11 @@ step-ler.ru/api/method/auth.login?api_key=API_KEY&sig=SIG&email=EMAIL&password=P
 
 После успешного выполнения возвращает объект, содержащий массив данных в поле ''user_info'', id авторизованного пользователя в поле ''user_id'', имя текущей сессии в поле session_name и id текущей сессии в поле ''session_id''. Если параметр **remember** был передан, отличным от ноля, в ответе также будет поле ''remember_token'', содержащее токен автоавторизации.
 
-{{:manual:components:api:methods:auth.login.png?nolink|}}
+<img src="http://softsolution.github.io/steplerapi/images/auth-login1.png" />
 
-{{:manual:components:api:methods:выделение_095.png?nolink|}}
+<img src="http://softsolution.github.io/steplerapi/images/auth-login2.png" />
 
-{{:manual:components:api:methods:выделение_096.png?nolink|}}
+<img src="http://softsolution.github.io/steplerapi/images/auth-login3.png" />
 
 ### Коды ошибок
 
