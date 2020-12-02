@@ -34,6 +34,6 @@ step-ler.ru/api/method/auth.confirm?api_key=API_KEY&sig=SIG&code=CODE&user_id=US
 | **323** | Регистрация запрещена. |
 | **1110** | Неправильный код. |
 
-В ходе выполнения также могут произойти [общие ошибки](docs/errors.md)
+В ходе выполнения также могут произойти [общие ошибки](/docs/errors.md)
 
-[НА ГЛАВНУЮ](README.md)
+[НА ГЛАВНУЮ](/README.md)

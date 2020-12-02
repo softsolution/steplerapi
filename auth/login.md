@@ -48,6 +48,6 @@ step-ler.ru/api/method/auth.login?api_key=API_KEY&sig=SIG&email=EMAIL&password=P
 
 ### Коды ошибок
 
-В ходе выполнения также могут произойти [общие ошибки](docs/errors.md)
+В ходе выполнения также могут произойти [общие ошибки](/docs/errors.md)
 
-[НА ГЛАВНУЮ](README.md)
+[НА ГЛАВНУЮ](/README.md)
