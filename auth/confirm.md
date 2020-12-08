@@ -1,4 +1,4 @@
-### auth.confirm
+## auth.confirm
 
 Завершает регистрацию нового пользователя, начатую методом [auth.signup](/auth/signup.md) по коду, полученному на email.
 
@@ -7,14 +7,14 @@
 
 | Название |Описание |
 |----|----|
-| **sig** | Параметр, полученный от результата метода [auth.signup_fields](/auth/signup_fields.md). Параметр привязан к ip адресу клиента и к домену сайта. Это **обязательный параметр**. |
+| **sig** | Параметр, полученный от результата метода [auth.signup_fields](/auth/signup_fields.md) или [users.get_sig](/users/get_sig.md). Параметр привязан к ip адресу клиента и к домену сайта. Это **обязательный параметр**. |
 | **code** | Код, полученный пользователем на email. Это **обязательный параметр**. |
 | **user_id** | ID пользователя, для которого нужно завершить регистрацию. Это **обязательный параметр**. |
 
 ### Пример
 
 ```
-step-ler.ru/api/method/auth.confirm?api_key=API_KEY&sig=SIG&code=CODE&user_id=USER_ID
+https://step-ler.ru/api/method/auth.confirm?api_key=API_KEY&sig=SIG&code=CODE&user_id=USER_ID
 ```
 
 ### Результат

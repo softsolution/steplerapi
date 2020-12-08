@@ -1,4 +1,4 @@
-### auth.login
+## auth.login
 
 Авторизация пользователя стандартным способом (используются cookie). Используется стандартный механизм сессий и cookie, поэтому при данном запросе и последующих запросах, требующих авторизации пользователя, убедитесь, что cookie передаются.
 
@@ -33,7 +33,7 @@
 ### Пример
 
 ```
-step-ler.ru/api/method/auth.login?api_key=API_KEY&sig=SIG&email=EMAIL&password=PASS
+https://step-ler.ru/api/method/auth.login?api_key=API_KEY&sig=SIG&email=EMAIL&password=PASS
 ```
 
 ### Результат

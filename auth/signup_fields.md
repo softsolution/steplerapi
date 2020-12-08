@@ -1,4 +1,4 @@
-### auth.signup_fields
+## auth.signup_fields
 
 Получает имена полей, обязательных для регистрации, которые потом используются в методе [auth.signup](/auth/signup.md).
 
@@ -12,7 +12,7 @@
 ### Пример
 
 ```
-step-ler.ru/api/method/auth.signup_fields?api_key=API_KEY
+https://step-ler.ru/api/method/auth.signup_fields?api_key=API_KEY
 ```
 
 ### Результат

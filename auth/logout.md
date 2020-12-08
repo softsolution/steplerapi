@@ -1,4 +1,4 @@
-### auth.logout
+## auth.logout
 
 Производит "выход" (разавторизацию) пользователя. Метод требует авторизацию пользователя.
 
@@ -12,7 +12,7 @@
 ### Пример
 
 ```
-step-ler.ru/api/method/auth.logout?api_key=API_KEY
+https://step-ler.ru/api/method/auth.logout?api_key=API_KEY
 ```
 
 ### Результат

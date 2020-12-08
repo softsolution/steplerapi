@@ -1,4 +1,4 @@
-### auth.restore
+## auth.restore
 
 Отправка запроса на восстановление пароля пользователя.
 
@@ -12,7 +12,7 @@
 ### Пример
 
 ```
-step-ler.ru/api/method/auth.restore?api_key=API_KEY&sig=SIG&email=EMAIL
+https://step-ler.ru/api/method/auth.restore?api_key=API_KEY&sig=SIG&email=EMAIL
 ```
 
 ### Результат
@@ -26,7 +26,8 @@ step-ler.ru/api/method/auth.restore?api_key=API_KEY&sig=SIG&email=EMAIL
 | **user_id** | id пользователя, для которого выполнялись действия. |
 | **sig** | Уникальный идентификатор клиента. |
 
-{{:manual:components:api:methods:auth_restore.png?nolink|}}
+
+![](https://step-ler.ru/upload/api/auth_restore.png "auth_restore.png")
 
 ### Коды ошибок
 
