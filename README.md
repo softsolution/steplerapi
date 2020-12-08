@@ -75,7 +75,13 @@
 | [auth.login](auth/login.md) 	| Авторизация пользователя стандартным способом (используются cookie). |
 | [auth.logout](auth/logout.md) 	| Разавторизация пользователя. |
 
+### Местоположение
 
+| Название | Описание | Статус разработки |
+|----|----|
+| [geo.get](geo/get.md) | Возвращает список стран/регионов/городов. | ![https://img.shields.io/badge/-ready-succes](https://img.shields.io/badge/-ready-succes) |
+| [geo.get_current_country](geo/get_current_country.md) | Возвращает данные по текущей стране пользователя, если она была определена по его ip адресу. | ![https://img.shields.io/badge/-ready-succes](https://img.shields.io/badge/-ready-succes) |
+| [geo.get_city](geo/get_city.md) | Поиск города или населенного пункта по параметрам | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) |
 
 
 ### Общие методы
@@ -83,3 +89,34 @@
 | Название | Описание |
 |----|----|
 | [execute](methods/execute.md) | Универсальный метод, который позволяет запускать последовательность других методов, сохраняя промежуточные результаты и возвращая их все в одном ответе. |
+
+### Компания
+
+| Название | Описание | Статус разработки |
+|----|----|----|
+| [company.add](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [company.](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [company.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+
+
+### Вакансии
+
+| Название | Описание | Статус разработки |
+|----|----|----|
+| [vacancy.add](vacancy/add.md) | Создание вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [vacancy.delete](vacancy/delete.md) 	| Удаление вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [vacancy.edit](vacancy/edit.md) 	| Редактирование вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [vacancy.restore](vacancy/archive.md) 	| Отправка вакансии в архив | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+
+### Отклики
+
+| Название | Описание | Статус разработки |
+|----|----|----|
+| [responses.list](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [responses.delete](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [responses.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+
+Отказ по отклику
+Приглашение по отклику
