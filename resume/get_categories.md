@@ -2,6 +2,8 @@
 
 Возвращает категории для резюме. Аналогичен методам [content.get_categories.company](/company/get_categories.md) и [content.get_categories.vacancy](/vacancy/get_categories.md).
 
+> Каталогизатор имеет двухуровневую структуру. При передаче параметра is_tree = 1 возвращается все дерево, без него только первый уровень категорий.
+
 ### Параметры
 
 | Название |Описание |
