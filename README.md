@@ -70,7 +70,7 @@
 |----|----|
 | [auth.signup_fields](auth/signup_fields.md) | Получает имена полей, обязательных для регистрации. |
 | [auth.signup](auth/signup.md) 	| Регистрирует нового пользователя. |
-| [auth.confirm](auth/confirm.md) 	| Завершает регистрацию нового пользователя, начатую методом auth.signup. |
+| [auth.confirm](auth/confirm.md) 	| Завершает регистрацию нового пользователя, начатую методом auth.signup. при необходимости подтверждения email |
 | [auth.restore](auth/restore.md) 	| Отправка запроса на восстановление пароля пользователя. |
 | [auth.login](auth/login.md) 	    | Авторизация пользователя стандартным способом (используются cookie). |
 | [auth.logout](auth/logout.md) 	| Разавторизация пользователя. |
