@@ -62,7 +62,14 @@
 | 100 | Один из необходимых параметров был не передан или неверен | 
 | 101 | Неверный ключ доступа | 
 | 115 | Параметр sig не передан или является некорректным | 
-| 777 | ip адрес посетителя передан некорректный | 
+| 777 | ip адрес посетителя передан некорректный |
+
+
+### Общие методы
+
+| Название | Описание |
+|----|----|
+| [execute](methods/execute.md) | Универсальный метод, который позволяет запускать последовательность других методов, сохраняя промежуточные результаты и возвращая их все в одном ответе. |
 
 ### Авторизация и регистрация
 
@@ -88,14 +95,14 @@
 |----|----|
 | [users.get_sig](users/get_sig.md) | Возвращает SIG и csrf_token. |
 
-### Компания
+### Компании
 
-| Название | Описание | Статус разработки |
-|----|----|----|
-| [company.add](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| Название | Описание |
+|----|----|
+| [content.company.add](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) |
 | [company.](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [company.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-
+| [content.get_categories.company](company/get_categories.md) | Каталогизатор компаний
 
 ### Вакансии
 
@@ -107,6 +114,7 @@
 | [vacancy.restore](vacancy/archive.md) 	| Отправка вакансии в архив | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [content.get_categories.vacancy](vacancy/get_categories.md) | Каталогизатор вакансий | |
 
 ### Отклики
 
@@ -115,12 +123,10 @@
 | [responses.list](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [responses.delete](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [responses.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-
 Отказ по отклику
 Приглашение по отклику
 
-### Общие методы
-
+### Резюме
 | Название | Описание |
 |----|----|
-| [execute](methods/execute.md) | Универсальный метод, который позволяет запускать последовательность других методов, сохраняя промежуточные результаты и возвращая их все в одном ответе. |
+| [content.get_categories.resume](resume/get_categories.md) | Каталогизатор резюме |
