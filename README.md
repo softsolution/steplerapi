@@ -99,10 +99,9 @@
 
 | Название | Описание |
 |----|----|
-| [content.company.add](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) |
-| [company.](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [company.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [content.get_categories.company](company/get_categories.md) | Каталогизатор компаний
+| [content.update_item.company](company/update_item.md) | Обновление информации о компании
+
 
 ### Вакансии
 
