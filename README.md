@@ -100,7 +100,7 @@
 | Название | Описание |
 |----|----|
 | [content.get_categories.company](company/get_categories.md) | Каталогизатор компаний | 
-| [content.update_item.company](company/update_item.md) | Обновление информации о компании | 
+| [content.update_item_company](company/update_item.md) | Обновление информации о компании | 
 | [content.get_item_company](company/get_item.md) | Получение информации о компании по ee Id | 
 | [content.get_my_company](company/get_my.md) | Получение информации о моей компаниии (для авторизованной компании) | 
 

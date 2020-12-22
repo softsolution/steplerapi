@@ -1,4 +1,4 @@
-## content.update_item.company
+## content.update_item_company
 
 Редактирует данные компании работодателя.
 
@@ -32,7 +32,7 @@
 ### Пример
 
 ```
-https://step-ler.ru/api/method/content.update_item.company?api_key=API_KEY&sig=SIG&csrf_token=CSRF_TOKEN&title=РогаИКо
+https://step-ler.ru/api/method/content.update_item_company?api_key=API_KEY&sig=SIG&csrf_token=CSRF_TOKEN&title=РогаИКо
 ```
 
 ### Результат
