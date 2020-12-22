@@ -109,9 +109,9 @@
 
 | Название | Описание | Статус разработки |
 |----|----|----|
-| [vacancy.add](vacancy/add.md) | Создание вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [vacancy.delete](vacancy/delete.md) 	| Удаление вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [vacancy.edit](vacancy/edit.md) 	| Редактирование вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [content.add_vacancy](vacancy/add.md) | Создание вакансии | - | 
+| [content.vacancy.delete](vacancy/delete.md) 	| Удаление вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [content.edit_vacancy](vacancy/edit.md) 	| Редактирование вакансии | - | 
 | [vacancy.restore](vacancy/archive.md) 	| Отправка вакансии в архив | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
