@@ -1,7 +1,8 @@
 ## content.get_categories.vacancy
 
 Возвращает категории для вакансий. Аналогичен методам [content.get_categories.company](/company/get_categories.md) и [content.get_categories.resume](/resume/get_categories.md).
-Каталогизатор имеет двухуровневую структуру. При передаче параметра is_tree = 1 возвращается все дерево, без него только первый уровень категорий.
+Каталогизатор имеет двухуровневую структуру. При передаче параметра is_tree = 1 возвращается все дерево, без него только первый уровень категорий. 
+Структура каталога совпадает со структурой категорий для резюме.
 
 > ! Большая просьба, закешировать полученный результат. Изменения в каталогизаторе происходят очень редко.
 
@@ -24,7 +25,7 @@ https://step-ler.ru/api/method/content.get_categories.vacancy?api_key=API_KEY&ca
 
 После успешного выполнения возвращает объект, содержащий общее число категорий вакансий в поле count и массив объектов категорий в поле items.
 
-![](https://step-ler.ru/upload/api/company-get-categories.png "vacancy-get-categories.png")
+![](https://step-ler.ru/upload/api/vacancy-get-categories.png "vacancy-get-categories.png")
 
 ### Коды ошибок
 

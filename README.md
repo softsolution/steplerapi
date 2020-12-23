@@ -107,15 +107,17 @@
 
 ### Вакансии
 
-| Название | Описание | Статус разработки |
-|----|----|----|
-| [content.add_vacancy](vacancy/add.md) | Создание вакансии | - | 
+| Название | Описание |
+|----|----|
+| [content.add_vacancy](vacancy/add.md) | Создание вакансии |
 | [content.vacancy.delete](vacancy/delete.md) 	| Удаление вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [content.edit_vacancy](vacancy/edit.md) 	| Редактирование вакансии | - | 
+| [content.edit_vacancy](vacancy/edit.md) 	| Редактирование вакансии |
 | [vacancy.restore](vacancy/archive.md) 	| Отправка вакансии в архив | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [content.get_categories.vacancy](vacancy/get_categories.md) | Каталогизатор вакансий | |
+| [content.get_categories.vacancy](vacancy/get_categories.md) | Каталогизатор вакансий |
+| [job.get_langs](job/get_langs.md) | Справочник языков |
+| [job.get_langs_levels](job/get_langs_levels.md) | Справочник уровней владения языком |
 
 ### Отклики
 
