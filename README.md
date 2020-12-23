@@ -116,8 +116,7 @@
 | [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [content.get_categories.vacancy](vacancy/get_categories.md) | Каталогизатор вакансий |
-| [job.get_langs](job/get_langs.md) | Справочник языков |
-| [job.get_langs_levels](job/get_langs_levels.md) | Справочник уровней владения языком |
+| [job.get_langs](job/get_langs.md) | Справочник языков и уровней владения языком |
 
 ### Отклики
 
