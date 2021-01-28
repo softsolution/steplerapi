@@ -110,13 +110,13 @@
 | Название | Описание |
 |----|----|
 | [content.add_vacancy](vacancy/add.md) | Создание вакансии |
-| [content.vacancy.delete](vacancy/delete.md) 	| Удаление вакансии | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [content.edit_vacancy](vacancy/edit.md) 	| Редактирование вакансии |
-| [vacancy.restore](vacancy/archive.md) 	| Отправка вакансии в архив | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [vacancy.login](vacancy/.md) 	| Авторизация пользователя стандартным способом (используются cookie). | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-| [vacancy.update](vacancy/update.md) 	| Обновление вакансии (поднятие в поиске) | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [content.edit_vacancy](vacancy/edit.md) | Редактирование вакансии |
+| [job.archive_vacancy](vacancy/archive.md) | Отправка вакансии в архив |
+| [job.restore_vacancy](vacancy/restore.md) | Восстановление вакансии из архива |
+| [job.lift_vacancy](vacancy/lift.md) | Обновление вакансии (поднятие в поиске) | 
 | [content.get_categories.vacancy](vacancy/get_categories.md) | Каталогизатор вакансий |
 | [job.get_langs](job/get_langs.md) | Справочник языков и уровней владения языком |
+| [content.get_item_vacancy](vacancy/get_item.md) | Получение вакансии по ee Id | 
 
 ### Отклики
 
@@ -125,8 +125,8 @@
 | [responses.list](responces/list.md)       | Получение списка откликов | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [responses.delete](responses/delete.md) 	| Удаление отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 | [responses.confirm](responses/read.md)    | Получение отклика | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
-Отказ по отклику
-Приглашение по отклику
+| [responses.cancel](responses/read.md)    | Отказ по отклику | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
+| [responses.invite](responses/read.md)    | Приглашение по отклику | ![https://img.shields.io/badge/status-not%20ready-red](https://img.shields.io/badge/status-not%20ready-red) | 
 
 ### Резюме
 | Название | Описание |
